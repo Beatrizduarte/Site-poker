@@ -1,0 +1,116 @@
+/*Documento CSS Site Poker*/
+/*Site das cores http://colorhunt.co/c/2763*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body{
+	font-family: 'Merriweather', serif;
+}
+header h1{
+	color:#EEEEEE;
+	margin-top: 10px; 
+}
+
+.barra-menu:hover{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 5px #333;
+	transition: 0.7s;
+	transform: scale(1.2);
+}
+h1 a{
+	text-decoration: none;
+	color:#EEEEEE;
+}
+.menu{
+	display:inline;
+	color:#EEEEEE;
+	font-size: 14pt;
+	padding: 10px 50px 20px 0px;
+}
+ul{
+	padding-left: 700px;
+	margin-top: 10px;
+	text-transform: uppercase;	
+}
+header{
+	background-color: #222831;
+	margin: -10px -5px 30px -10px;
+	padding: 5px 50px 5px 0px;
+	border:1px solid #000;
+	height: 100px;
+}
+#sessao-email{ /*Bloco referente a borda*/
+	background-color: #DCDCDC;
+	border:2px solid #00ADB5;
+	height: 150px;
+	margin-left: -50px;
+}
+#sessao-email{
+	margin-left: auto;
+	margin-right: auto;
+}
+#sessao-email h2{
+	text-align: center;
+}
+#email-form{
+	margin-left: 550px;
+	padding: 5px 30px 5px;
+}
+#botao-email{
+	padding: 10px 30px 10px;
+	margin:10px;
+	background-color: #00ADB5;
+	color: #EEEEEE;
+	border-radius: 20%;
+	border:2px solid #EEEEEE ;
+}
+footer{
+	background-color: #D3D3D3;
+	margin: -10px -5px -100px -10px;
+	padding: 70px 50px 80px 0px;
+}
+footer li{
+	display: inline;
+}
+footer a{
+	text-decoration: none;
+	color:#fff;
+}
+#rodape{
+	margin-left: 50px;
+}
+span{
+	padding-left: 40px;
+}
+#rodape-face{ /* Comando referente ao circulo no rodape*/
+	padding: 40px 10px 40px 10px;
+	box-shadow:20px rgba(225,225,225,0.5);
+	border-radius: 60%;
+	-moz-border-radius:60%;
+	-webkit-border-radius:60%;
+	background-color: #00ADB5;
+	margin: 30px 0px 0px 0px;
+	border:2px solid #EEEEEE;
+}
+#rodape-twitter{/* Comando referente ao circulo no rodape*/
+	padding: 40px 20px 40px 20px;
+	box-shadow:20px rgba(225,225,225,0.5);
+	border-radius: 60%;
+	-moz-border-radius:60%;
+	-webkit-border-radius:60%;
+	background-color: #393E46;
+	border:2px solid #EEEEEE;
+}
+#rodape-googleplus{/* Comando referente ao circulo no rodape*/
+	padding: 40px 20px 40px 20px;
+	box-shadow:20px rgba(225,225,225,0.5);
+	border-radius: 60%;
+	-moz-border-radius:60%;
+	-webkit-border-radius:60%;
+	background-color: #00ADB5;
+	border:2px solid #EEEEEE;
+}
+#copia a{
+	color:#222831;
+}
+#copia{
+	font-size: 10pt;
+}
