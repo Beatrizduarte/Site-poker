@@ -3,20 +3,21 @@
 <head>
 	<title>PokerSchool</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-	<header>
+	<header class="cabecalho">
 		<h1><a href="">PokerSchool</a></h1>
 		<nav class="barra-menu">
 			<ul>
-				<li class="menu">Inicio</li>
-				<li class="menu">Saiba mais</li>
-				<li class="menu">Preços</li>
-				<li class="menu">Contato</li>
+				<li class="menu"><a href="#">Inicio</a></li>
+				<li class="menu"><a href="#">Saiba mais</a></li>
+				<li class="menu"><a href="#">Preços</a></li>
+				<li class="menu"><a href="#">Contato</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div class="container">
+	<div class="container" style="clear: both;">
 		<section>
 			<h2>Conheça os melhores jogadores</h2>
 			<button>Ver mais</button>
@@ -80,17 +81,18 @@
 		</section>
 		<section>
 			<h2>Entre em contato conosco</h2>
-			
+			<form>
 			<label>Nome:</label>
 			<input type="text" name="nome">
 			<label>Email:</label>
 			<input type="text" name="email">
 			<label>Telefone:</label>
-			<input type="number" name="telefone">
+			<input type="text" name="telefone">
 			<label>Mensagem:</label>
 			<textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
 			<input type="submit" name="enviar" value="Enviar">
 			<input type="reset" name="limpar" value="Limpar">
+			</form>
 		</section>
 	</div>
 		<footer>
