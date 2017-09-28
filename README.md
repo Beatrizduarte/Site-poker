@@ -24,3 +24,6 @@
     Será interessante utilizar PHP para fazer o disparo de email apesar de não ser obrigatório; <br>
     Utilizar algum minificador no fim do projeto pra minificar o JS, CSS e HTML.
 </p>
+
+<h2>Site<h2>
+<a href="https://beatrizduarte.github.io/Site-poker/">PokerSchool</a
