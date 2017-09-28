@@ -7,7 +7,7 @@
 	width: 100%;
 	display:block;
 	background-color: #004056;
-	margin: -2% -2% 2% -1%;
+	margin: -1% 0 2% -1%;
 	padding: 1% 1%;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 	position: fixed;
@@ -52,21 +52,23 @@ body{
 	color:#fff;
 }
 .container{
-	margin-top:5%;
+	margin-top:2%;
 	background-color: #cecece;
 	margin-right: auto;
 	margin-left: auto; 
-	width: 80%;
+	width: 100%;
 	color:#000;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 /*  SECTIONS  */
 #sessaoj{
-	width: 1066px;
-	height: 230px;
+	width: 100%;
 	text-align: center;
-	background:url(../img/section1.jpg) no-repeat;
+	background:url(../img/section1.jpg) no-repeat fixed;
 	color:#fff;
-	padding-top: 15px;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 6%;
 }
 #sessaoj h2{
 	text-align: center;
